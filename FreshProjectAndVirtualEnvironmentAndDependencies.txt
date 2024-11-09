@@ -1,0 +1,30 @@
+
+
+Notes:
+----
+
+To create fresh python project
+
+mkdir projectName
+cd projectName
+
+
+To create virtual environemnt and activate:
+
+python -m venv virtualEnvironmentName
+virtualEnvironmentName/Scripts/activate.bat or source virtualEnvironmentName/bin/activate
+
+Use below command to copy all dependencies into the file. We can use this file for installing all required dependencies
+pip freeze > requirements.txt
+
+Below command will be used for install all dependencies
+pip install -r requirements.txt
+
+To deactivate vitual environment:
+deactivate
+
+
+Link for reference:
+https://www.freecodecamp.org/news/how-to-setup-virtual-environments-in-python/
+
+
